@@ -1,0 +1,442 @@
+
+#upperbar{
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 232, 206);
+    height: 8vh;
+    width: 100%;
+}
+#logo{
+    height: 4.5vh; 
+    margin-left: 2vh;
+}
+#logo b{
+    font-size: 160%;
+}
+#upper1{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+#upper2{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+#upper2 li{
+    list-style: none;
+}
+#itemmenu{
+    height: 100%;
+    border-bottom: solid;
+    border-bottom-color:rgba(0, 0, 0, 0.568);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display:ruby;
+    font-size: 175%;
+    transition: all 0.5s linear;
+    background-color: azure;
+}
+#upper2 a{
+    color: black;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.7%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    position: relative;
+    font-size: 175%;
+    transition: all 0.2s linear;
+}
+#upper2 a span{
+    opacity: 0;
+    top: -7%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    border-color:black;
+    border-bottom:solid;
+    border-top: solid;
+    border-radius: 2.5px;
+    transition: all 0.22s linear;
+    transform: scaleX(0.01) scaleY(1.8);
+}
+#upper2 a{
+    font-weight: 100;
+}
+#upper2 a:hover span{
+    font:bold;
+    opacity: 100%;
+    transform: scalex(1) scaleY(1.1);
+}
+#upper2 a:hover{
+    transform: scale(1.1);
+    color: rgb(255, 232, 206);
+    background-color: rgb(0, 0, 0);
+}
+#upper3{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#linguagemslct{
+    transition: all 0.1s linear;
+    width: 1.5vh;
+    height: .75vh;
+}
+#upper3 span{
+    padding: .5vh;
+}
+#upper3 div{
+    display: flex;
+    align-items: center;
+}
+
+#darkmd{
+    
+    transition: all 0.15s linear;
+    display: flex;
+    align-items: center;
+    border: solid 0.1px black;
+    position: relative;
+    width: 3.5vh;
+    height: 1vh;
+    border-radius: 100px;
+}
+#balldm{
+    background-color: black;
+    border: solid 0.1px black;
+    margin: 0.25vh;
+    transition: all 0.15s linear;
+    left:0;
+    height: 0.4vh;
+    width: 0.4vh;
+    border-radius: 100%;
+    position: absolute;
+}
+.balldark{
+    background-color: rgb(255, 232, 206);
+    transform: translateX(2.25vh);
+}
+#lgn:hover{
+    
+}
+
+#upperbar div{
+    height: 100%;
+}
+
+#carrossel{
+    padding-top: 10vh;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 50vh;
+    width: 100%;
+}
+
+#carrossel p{
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin: 0;
+}
+
+#barpass{
+    height: 60vh;
+    opacity: 70%;
+}
+#barback{
+    height: 60vh;
+    opacity: 70%;
+}
+.ocultarbarra{
+    display: none;
+}
+
+#img1{
+    position: relative;
+    height: 30vh;
+    width: 30%;
+}
+#img1 i{
+    background-color: rgba(0, 0, 0, 0.075);
+    opacity: 0;
+}
+#img1:hover i{
+    transition: .4s;
+    opacity: 100%;
+}
+#img2{
+    position: relative;
+    height: 40vh;
+    z-index: 99;
+    width: 50%;
+}
+#img2{
+    transform:scale(1.4);
+}
+#img3{
+    position: relative;
+    height: 30vh;
+    width: 30%;
+}
+#img3:hover{
+    color: rgb(255, 255, 255);
+}
+#img3 i{
+    background-color: rgba(0, 0, 0, 0.075);
+    opacity: 0;
+}
+#img3:hover i{
+    transition: .4s;
+    opacity: 100%;
+}
+#center{
+    
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchdiv{
+    width: 80%;
+    height: min-content;
+}
+#searchdiv div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#sch1{
+    height: 10%;
+    justify-content: left;
+}
+#sch1 a{
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 140%;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    justify-self: start;
+    margin: 2vh;
+    padding: 0.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+} 
+#sch2{
+    height: 10%;
+    justify-content: space-around;
+}
+#carrobusca{
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40vh;
+}
+#carrobusca p{
+    width: 50%;
+    height: 100%;
+}
+#nameshow{
+    height: 2vh;
+    position: absolute;
+}
+#nameshow span{
+    background: linear-gradient(90deg, rgb(255, 232, 206),rgba(255, 255, 255, 0));
+}
+#nameshow p{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 175%;
+    background-color: rgb(255, 232, 206);
+    text-transform: capitalize;
+}
+#carroshow{
+    transition: all 0.1s linear;
+    background-size: cover;
+    background-position: center;
+    background-image: url(carro3.avif);
+}
+#descricaoshow{
+    padding-left: 3vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+}
+
+#descricaoshow li{
+    margin: 0.4vh;
+    list-style: none;
+    font-size: 150%;
+    padding: 1vh;
+}
+#sp1 li{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 232, 206);
+}
+#tcolumn1{
+    height: 9vh;
+    width: 90%;
+}
+#searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+} 
+#searchbar input{
+    padding-left: 0.5%;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 15px;
+    font-size: 120%;
+}
+#searchbar i{
+    font-size: large;
+    padding-right: 1.5vh;
+}
+#carpesquisa{
+    background: transparent;
+    border: 0;
+}
+#lupa{
+    scale: 1.2;
+    transition: all 0.5s linear;
+}
+.giralupa{
+    transition:  0.5s;
+}
+#lupa:hover{
+    scale: 1.22;
+    transition: all 0.5s linear;
+}
+#lupa:hover i{
+    color: rgb(255, 255, 255);
+    transform: scaleX(0.8);
+}
+
+#bottonbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 1500px)  {
+    #carrossel{
+    padding-top: 11vh;
+    height: 40vh;
+}
+#img1{
+    height: 18vh;
+}
+#img2{
+    height: 28vh;
+}
+#img3{
+    height: 18vh;
+}
+}
+@media only screen and (max-width: 1050px)  {
+    #carrossel{
+    padding-top: 11vh;
+    height: 28vh;
+}
+#img1{
+    height: 12vh;
+}
+#img2{
+    height: 20vh;
+}
+#img3{
+    height: 12vh;
+}
+}
+
+@media only screen and (max-width: 950px)  {
+    #carrossel{
+    padding-top: 12vh;
+    height: 25vh;
+}
+#img1{
+    height: 10vh;
+}
+#img2{
+    height: 18vh;
+}
+#img3{
+    height: 10vh;
+}
+}
+@media only screen and (max-width: 750px)  {
+    #carrossel{
+    padding-top: 11vh;
+    height: 16vh;
+}
+#img1{
+    height: 9vh;
+}
+#img2{
+    height: 15vh;
+}
+#img3{
+    height: 9vh;
+}
+
+}
+@media only screen and (max-width: 550px)  {
+    #carrossel{
+    padding-top: 11vh;
+    height: 10vh;
+}
+#img1{
+    height: 6vh;
+}
+#img2{
+    height: 10vh;
+}
+#img3{
+    height: 6vh;
+}
+#upper2 p{
+    font-size: 120%;
+}
+#upper2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#logo{
+    height: 4vh; 
+    margin-left: 1vh;
+}
+#logo a{
+    font-size: 20%;
+}
+}
+

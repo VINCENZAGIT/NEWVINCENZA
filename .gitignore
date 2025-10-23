@@ -1,0 +1,15 @@
+# Ignorar dependências do PHP
+/vendor/
+
+# Ignorar dependências do JavaScript
+/node_modules/
+
+# Ignorar o arquivo de senha (RECOMENDADO)
+/config/database.php
+
+# Arquivos de log
+*.log
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
