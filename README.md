@@ -117,3 +117,5 @@ git clone https://github.com/VINCENZAGIT/NEWVINCENZA.git
 
 ## Observações
 Estamos cientes que falta terminar algumas páginas, e portanto não foram incluídas ainda, mas estão em desenvolvimento, e irão ser polidas assim como o resto do site.
+A página financiamento por exemplo, já tem o back pronto, a lógica por trás dela, mas o seu visual ainda está em processo de criação e portanto não foi mostrada no vídeo.
+Páginas que tiveram algum erro com banco de dados foram mostradas mas tal erro está em processo de resolução ainda.
